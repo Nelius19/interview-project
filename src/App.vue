@@ -1,15 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <SignIn/>
+  <!-- <SignUp/> -->
+  <!-- <ResetPassword/> -->
+  <!-- <AdminView/> -->
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SignIn from './components/SignIn.vue'
+// import SignUp from './components/SignUp.vue'
+// import ResetPassword from './components/ResetPassword.vue'
+// import AdminView from './components/AdminView.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    SignIn,
+    // SignUp,
+    // ResetPassword,
+    // AdminView
   }
 }
 </script>
@@ -24,3 +34,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+
